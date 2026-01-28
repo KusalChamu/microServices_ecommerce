@@ -1,0 +1,13 @@
+{
+  "extends": "../typescript-config/base.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "moduleResolution": "bundler"
+  },
+  "include": [
+    "prisma.config.ts",
+    "prisma/**/*.ts",
+    "generated/**/*.ts",
+    "src/**/*"
+  ]
+}
