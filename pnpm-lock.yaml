@@ -199,6 +199,9 @@ importers:
       '@clerk/fastify':
         specifier: ^2.6.17
         version: 2.6.17(fastify@5.7.1)(react-dom@19.1.0(react@19.2.0))(react@19.2.0)
+      '@repo/order-db':
+        specifier: workspace:*
+        version: link:../../packages/order-db
       fastify:
         specifier: ^5.5.0
         version: 5.7.1
